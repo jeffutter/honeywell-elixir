@@ -1,8 +1,8 @@
 defmodule Honeywell.TokenStore do
   use GenServer
   require Logger
-  alias OAuth2.AccessToken
-  alias Honeywell.OAuth2
+  alias Elixir.OAuth2.AccessToken
+  alias Elixir.Honeywell.OAuth2
 
   @valid_keys [:token, :client]
 
