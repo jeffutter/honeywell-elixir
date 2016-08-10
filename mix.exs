@@ -31,7 +31,7 @@ defmodule Honeywell.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.9.0"},
-      {:oauth2, git: "https://github.com/scrogson/oauth2.git"},
+      {:oauth2, "~> 0.6.0"},
       {:poison, "~> 2.2.0"},
       {:credo, "~> 0.4", only: [:dev, :test]},
 			{:ex_doc, "~> 0.12", only: :dev},
