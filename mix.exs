@@ -3,7 +3,7 @@ defmodule Honeywell.Mixfile do
 
   def project do
     [app: :honeywell,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.3",
      name: "Honeywell Api Client",
      source_url: "https://github.com/jeffutter/honeywell-elixir.ex",
@@ -31,7 +31,7 @@ defmodule Honeywell.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.9.0"},
-      {:oauth2, "~> 0.6.0"},
+      {:oauth2, "~> 0.7.0"},
       {:poison, "~> 2.2.0"},
       {:credo, "~> 0.4", only: [:dev, :test]},
 			{:ex_doc, "~> 0.12", only: :dev},
